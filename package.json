@@ -1,0 +1,33 @@
+{
+  "name": "reloadjs",
+  "version": "0.0.1",
+  "description": "Just another hot code reload module",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/majimboo/reloadjs.git"
+  },
+  "keywords": [
+    "hotload",
+    "reload",
+    "hotcode"
+  ],
+  "author": "Majid Arif Siddiqui <me@majidarif.com> (http://blog.majidarif.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/majimboo/reloadjs/issues"
+  },
+  "homepage": "https://github.com/majimboo/reloadjs",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^5.0.0"
+  },
+  "dependencies": {
+    "callsite": "^1.0.0",
+    "chokidar": "^1.0.0-rc3",
+    "lodash": "^3.1.0"
+  }
+}
